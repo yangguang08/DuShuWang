@@ -1,0 +1,211 @@
+﻿@import url("reset.css");
+body
+{
+    background-image: url(../img/3.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #CDE1AF;
+}
+/*-----二级页面样式-----*/
+#container1
+{
+    margin:0 auto;
+    background-image:url(../img/2.png);
+    width:1000px;
+    height:720px;
+    background-repeat:no-repeat;
+    position:relative;
+}
+#leftcontent
+{
+    margin-top:325px;
+    margin-left:125px;
+    width:300px;
+    line-height:20px;
+    position:absolute;
+    font-family:宋体,新宋体, 方正姚体;
+    font-size:15px;
+}
+#rightcontent
+{
+    width:300px;
+    margin-top:150px;
+    margin-left:550px;
+    line-height:20px;
+    position:absolute;
+}
+#rightcontent p
+{
+    font-family:宋体,新宋体, 方正姚体;
+    font-size:15px;
+}
+.indent
+{
+    text-indent:2em;
+}
+#rightcontent ul
+{
+    width:200px;
+    float:right;
+    margin-top:25px;
+    text-indent:2em;
+}
+#rightcontent li a:link,#rightcontent li a:visited
+{
+    line-height:35px;
+    font-family: 华文新魏;
+    font-size:20px;
+    text-decoration:none;
+    color:#000000;
+}
+#rightcontent li a:hover
+{
+    color:#009900;
+    font-size:22px;
+}
+#homepic
+{
+    width:100px;
+    position:absolute;
+    margin-top:45px;
+    margin-left:900px;	
+}
+#homepic img
+{
+    border:none;
+}
+#mappath
+{
+    margin-top:65px;
+    margin-left:530px;
+    position:absolute;
+}
+
+/*-----三级页面样式-----*/
+#thirdcontainer
+{
+    margin:0 auto;
+    width:900px;
+    min-height:650px;
+    position:relative;
+}
+#leftbar
+{
+    float:left;
+    width:200px;
+    height:550px;
+    background-color:#94CB84;
+}
+#rightbar
+{
+    float:left;
+    width:500px;
+    height:550px;
+}
+.contentbar
+{
+    width:100%;
+    height:490px;
+    overflow: auto;
+    border-top:solid 2px #57dd37;
+}
+.contentbar img
+{
+    max-height:300px;
+    max-width:300px;	
+}
+
+#picture
+{
+    min-height:200px;
+}
+#text
+{
+    min-height:200px;
+}
+#text li
+{
+    height:40px;
+    border-bottom:dashed 1px;
+    position:relative;
+    text-indent:0.5em;
+}
+#text li a:link ,#text li a:visited
+{
+    color:#000000;
+    width:200px;
+    font-size:15px;
+    display:block;
+    text-decoration:none;
+    height:40px;
+    position:absolute;
+    padding-top:10px;
+}
+#text li a:hover
+{
+    color:#FFFFFF;
+    font-size:17px;
+    text-decoration:none;
+    height:40px;
+}
+#sitemap
+{
+    margin-top:23px;
+    text-indent:20px;
+    height:35px;
+}
+#submsg
+{
+    margin-top:5px;	
+}
+/*-----聊天室样式-----*/
+.chatcontainer
+{
+    width:190px;
+    height:500px;
+    float:left;
+    padding:20px 0px;
+    background-color:#94CB84;
+}
+.login
+{
+    width:100%;
+    color:Blue;
+    background-color:#94CB84;
+}
+.loginTxtbox
+{
+    width:100px;
+}
+.welcome
+{
+    width:100%;
+    padding:30px 15px;
+    display:none;
+}
+.framestyle
+{
+    width:98%;
+    height:250px;
+    padding:0px;
+    color:Blue;
+    border:solid 2px #57dd37;
+    background-color:Silver;
+}
+/*---诗词样式---*/
+.shiju
+{
+    text-align:center;	
+}
+.biaoti
+{
+    text-indent:0px;
+    font-weight:bolder;
+    font-size:large;	
+}
+.author
+{
+	text-align:center;
+	font-size:small;
+	color:Gray;	
+}

@@ -1,0 +1,49 @@
+D:\My Documents\Visual Studio 2008\Projects\汉轩阁\DAL\bin\Debug\DAL.dll
+D:\My Documents\Visual Studio 2008\Projects\汉轩阁\DAL\bin\Debug\DAL.pdb
+D:\My Documents\Visual Studio 2008\Projects\汉轩阁\DAL\bin\Debug\Entity.dll
+D:\My Documents\Visual Studio 2008\Projects\汉轩阁\DAL\bin\Debug\Entity.pdb
+D:\My Documents\Visual Studio 2008\Projects\汉轩阁\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2008\Projects\汉轩阁\DAL\obj\Debug\DAL.dll
+D:\My Documents\Visual Studio 2008\Projects\汉轩阁\DAL\obj\Debug\DAL.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\汉轩阁\DAL\bin\Debug\DAL.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\汉轩阁\DAL\bin\Debug\DAL.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\汉轩阁\DAL\bin\Debug\Entity.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\汉轩阁\DAL\bin\Debug\Entity.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\汉轩阁\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\汉轩阁\DAL\obj\Debug\DAL.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\汉轩阁\DAL\obj\Debug\DAL.pdb
+D:\My Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\bin\Debug\DAL.dll
+D:\My Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\bin\Debug\DAL.pdb
+D:\My Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\bin\Debug\Entity.dll
+D:\My Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\bin\Debug\Entity.pdb
+D:\My Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\obj\Debug\DAL.dll
+D:\My Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\obj\Debug\DAL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\bin\Debug\DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\bin\Debug\DAL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\bin\Debug\Entity.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\bin\Debug\Entity.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\obj\Debug\DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\obj\Debug\DAL.pdb
+C:\Documents and Settings\Administrator\桌面\ShuXiangShuiNing\DAL\bin\Debug\DAL.dll
+C:\Documents and Settings\Administrator\桌面\ShuXiangShuiNing\DAL\bin\Debug\DAL.pdb
+C:\Documents and Settings\Administrator\桌面\ShuXiangShuiNing\DAL\bin\Debug\Entity.dll
+C:\Documents and Settings\Administrator\桌面\ShuXiangShuiNing\DAL\bin\Debug\Entity.pdb
+C:\Documents and Settings\Administrator\桌面\ShuXiangShuiNing\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\ShuXiangShuiNing\DAL\obj\Debug\DAL.dll
+C:\Documents and Settings\Administrator\桌面\ShuXiangShuiNing\DAL\obj\Debug\DAL.pdb
+C:\Users\hq\Desktop\ShuXiangShuiNing\DAL\bin\Debug\DAL.dll
+C:\Users\hq\Desktop\ShuXiangShuiNing\DAL\bin\Debug\DAL.pdb
+C:\Users\hq\Desktop\ShuXiangShuiNing\DAL\bin\Debug\Entity.dll
+C:\Users\hq\Desktop\ShuXiangShuiNing\DAL\bin\Debug\Entity.pdb
+C:\Users\hq\Desktop\ShuXiangShuiNing\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\hq\Desktop\ShuXiangShuiNing\DAL\obj\Debug\DAL.dll
+C:\Users\hq\Desktop\ShuXiangShuiNing\DAL\obj\Debug\DAL.pdb
+D:\工作资料\信管协会\专业竞赛文件\文科计算机\大赛作品\ShuXiangShuiNing\DAL\bin\Debug\DAL.dll
+D:\工作资料\信管协会\专业竞赛文件\文科计算机\大赛作品\ShuXiangShuiNing\DAL\bin\Debug\DAL.pdb
+D:\工作资料\信管协会\专业竞赛文件\文科计算机\大赛作品\ShuXiangShuiNing\DAL\bin\Debug\Entity.dll
+D:\工作资料\信管协会\专业竞赛文件\文科计算机\大赛作品\ShuXiangShuiNing\DAL\bin\Debug\Entity.pdb
+D:\工作资料\信管协会\专业竞赛文件\文科计算机\大赛作品\ShuXiangShuiNing\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\工作资料\信管协会\专业竞赛文件\文科计算机\大赛作品\ShuXiangShuiNing\DAL\obj\Debug\DAL.dll
+D:\工作资料\信管协会\专业竞赛文件\文科计算机\大赛作品\ShuXiangShuiNing\DAL\obj\Debug\DAL.pdb

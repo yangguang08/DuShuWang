@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BBSsite.master.cs" Inherits="hanxuange.bbs.BBSsite" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="Shortcut Icon" href="../linklogo.ico" />
+    <link href="../css/global.css" rel="stylesheet" type="text/css" />
+    <link href="../css/culture.css" rel="stylesheet" type="text/css" />
+    <link href="../css/bbs.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="framework">
+    <div class="bbsheader"><embed src="../img/bbsheader.swf" height="150px" width="900px"></embed></div>
+    <div id="loginbar"><a href="login.aspx">登录</a>&nbsp;|<a href="register.aspx">&nbsp;注册&nbsp;</a>|<a href="main.aspx">&nbsp;论坛主页&nbsp;</a>|<a href="../Default.aspx">&nbsp;网站主页</a></div>
+    <div id="mapandinfor">
+        <img alt="" src="../img/home.png" /><asp:SiteMapPath ID="SiteMapPath1" 
+            runat="server">
+        </asp:SiteMapPath><div id="timeinfor"><zy:Timer ID="timer" runat="server"  /></div>
+    </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="LblWelcome" runat="server" Text="" ForeColor="Blue"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;<asp:LinkButton
+            ID="LkbQuit" runat="server" onclick="LkbQuit_Click">退出</asp:LinkButton>&nbsp;
+    <div id="bbscontainer">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="footer">
+        <p>版权所有：武汉理工大学管理学院信息管理与信息系统0804班 邹瑶 黄伟 黄雨晴雨晴</p>
+        <p>指导老师：燕翔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 地址：湖北省武汉市雄楚大街 &nbsp;&nbsp;&nbsp;&nbsp; 邮编：430070</p>
+        <p style="vertical-align:middle"><img alt="联系方式" src="../img/qq.gif"  />&nbsp;&nbsp;583153766&nbsp;&nbsp;&nbsp;1019488025&nbsp;&nbsp;&nbsp;766139240</p>
+
+    </div>
+    </div>
+    </form>
+</body>
+</html>

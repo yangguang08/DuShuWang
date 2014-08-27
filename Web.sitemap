@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Default.aspx" title="主页"  description="主页">
+      <siteMapNode url="~/novel/SecondaryPage.aspx" title="红楼梦简介" description="红楼梦简介">
+        <siteMapNode url="~/novel/AboutHero.aspx" title="主人公-林黛玉" description="主人公-林黛玉"></siteMapNode>
+        <siteMapNode url="~/novel/ThePoem.aspx" title="《葬花吟》" description="《葬花吟》"></siteMapNode>
+        <siteMapNode url="~/novel/Analysis.aspx" title="解析《葬花吟》" description="解析《葬花吟》"></siteMapNode>
+        <siteMapNode url="~/novel/WhyWrite.aspx" title="黛玉为何要写《葬花吟》" description="黛玉为何要写《葬花吟》"></siteMapNode>
+        <siteMapNode url="~/novel/Derivation.aspx" title="葬花故事的由来" description="葬花故事的由来"></siteMapNode>
+        <siteMapNode url="~/novel/shixiangyun.aspx" title="醉卧花阴" description="葬花故事的由来"></siteMapNode>
+        <siteMapNode url="~/novel/baochai.aspx" title="宝钗扑蝶" description="宝钗扑蝶"></siteMapNode>
+        <siteMapNode url="~/novel/juhuashi.aspx" title="菊花诗" description="菊花诗"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url ="~/novel/sanguo.aspx" description="三国演义" title="三国演义">
+        <siteMapNode url="~/novel/sangu.aspx" title ="三顾茅庐" description ="三顾茅庐"></siteMapNode>
+        <siteMapNode url="~/novel/dandao.aspx" title="单刀赴会" description ="单刀赴会"></siteMapNode>
+        <siteMapNode url="~/novel/shezhan.aspx" description="舌战群儒" title="舌战群儒"></siteMapNode>
+        <siteMapNode url ="~/novel/qiqin.aspx" title ="七擒孟获" description ="七擒孟获"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url ="~/novel/shuihu.aspx" description="水浒传" title="水浒传">
+        <siteMapNode url="~/novel/yezhu.aspx" title ="大闹野猪林" description ="大闹野猪林"></siteMapNode>
+        <siteMapNode url="~/novel/feiyun.aspx" title="大闹飞云浦" description ="大闹飞云浦"></siteMapNode>
+        <siteMapNode url="~/novel/zuida.aspx" description="醉打蒋门神" title="醉打蒋门神"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="~/tangshi/SecondTangshi.aspx" title="唐诗简介" description="唐诗简介">
+        <siteMapNode url="~/tangshi/Huanghelou.aspx" title="黄鹤楼" description="黄鹤楼"></siteMapNode>
+        <siteMapNode url="~/tangshi/shudaonan.aspx" title="蜀道难" description="蜀道难"></siteMapNode>
+        <siteMapNode url="~/tangshi/xinlunan.aspx" title="行路难" description="行路难"></siteMapNode>
+        <siteMapNode url="~/tangshi/xunxishan.aspx" title="寻西山隐者不遇" description="寻西山隐者不遇"></siteMapNode>
+        <siteMapNode url="~/tangshi/youziyin.aspx" title="游子吟" description="游子吟"></siteMapNode>
+      </siteMapNode>
+        <siteMapNode url="~/yuanqu/yuanquqiusi2.aspx" title="秋思" description="秋思">
+            <siteMapNode url="~/yuanqu/qiusithree1.aspx" title="简约与深细相依" description="简约与深细相依"></siteMapNode>
+            <siteMapNode url="~/yuanqu/qiusithree2.aspx" title="静景与动景相映" description="静景与动景相映"></siteMapNode>
+            <siteMapNode url="~/yuanqu/qiusithree3.aspx" title="景色与情思相融" description="景色与情思相融"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="~/songci/dielianhua2.aspx" title="蝶恋花" description="蝶恋花">
+            <siteMapNode url="~/songci/dielianhuaThree1.aspx" title="悠悠蝶恋花" description="悠悠蝶恋花"></siteMapNode>
+            <siteMapNode url="~/songci/dielianhuaThree2.aspx" title="蝶恋花简介" description="蝶恋花简介"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="~/songci/liannujiao2.aspx" title="念奴娇" description="念奴娇">
+            <siteMapNode url="~/songci/niannujiaoThree1.aspx" title="创作背景" description="创作背景"></siteMapNode>
+            <siteMapNode url="~/songci/niannujiaoThree2.aspx" title="作者简介" description="作者简介"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="~/songci/shengshengman.aspx" title="声声慢" description="声声慢">
+            <siteMapNode url="~/songci/shengshengmanThree1.aspx" title="寻寻觅觅，冷冷清清" description="寻寻觅觅，冷冷清清"></siteMapNode>
+            <siteMapNode url="~/songci/shengshengmanThree2.aspx" title="寓情于景，情景交融" description="寓情于景，情景交融"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="~/yuanqu/yuqnudoueyuan2.aspx" title="窦娥冤" description="窦娥冤">
+            <siteMapNode url="~/yuanqu/doueyuanthree1.aspx" title="善良的灵魂" description="善良的灵魂"></siteMapNode>
+            <siteMapNode url="~/yuanqu/doueyuanthree2.aspx" title="帮助弱小民众" description="帮助弱小民众"></siteMapNode>
+            <siteMapNode url="~/yuanqu/doueyuanthree3.aspx" title="元朝将会灭亡" description="元朝将会灭亡"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="~/yuanqu/yuanquxixiangji2.aspx" title="西厢记" description="西厢记">
+            <siteMapNode url="~/yuanqu/xixiangjithree1.aspx" title="西厢记之普救寺" description="西厢记之普救寺"></siteMapNode>
+            <siteMapNode url="~/yuanqu/xixiangjithree2.aspx" title="蛙鸣传情莺莺塔" description="蛙鸣传情莺莺塔"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="~/bbs/main.aspx" title="论坛主页"  description="论坛主页">
+            <siteMapNode url="~/bbs/login.aspx" title="会员登录" description="会员登录"></siteMapNode>
+            <siteMapNode url="~/bbs/register.aspx" title="会员注册" description="会员注册"></siteMapNode>
+            <siteMapNode url="~/bbs/zhutiall.aspx" title="所有主题" description="所有主题">
+                <siteMapNode url="~/bbs/zhutiehuitie001.aspx" title="文化交流区" description="文化交流区"></siteMapNode>
+            </siteMapNode>
+        </siteMapNode>
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,5 @@
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\Entity\bin\Release\Entity.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\Entity\bin\Release\Entity.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\Entity\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\Entity\obj\Release\Entity.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\Entity\obj\Release\Entity.pdb

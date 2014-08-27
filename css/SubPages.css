@@ -1,0 +1,65 @@
+﻿@import url("reset.css");
+#container
+{
+    margin-top:30px;
+    width:95%;
+    padding:10px 10px;  
+}
+#container h3
+{
+    font-family:楷体_GB2312,华文新魏,隶书;
+    font-weight:bolder;
+    font-size:30px;
+    text-align:center;
+}
+#container span
+{
+    font-weight:bold;
+}
+#container p
+{
+    font-family:宋体;
+    font-size:16px;
+    line-height:32px;
+}
+
+/* 林黛玉简介*/
+#img 
+{
+    float:right;
+    padding-left:15px;
+}
+#img p
+{
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* 葬花吟 */
+#poem
+{
+    float:left;
+}
+#drawing, #tv
+{
+    float:right;
+}
+#drawing p, #tv p
+{
+    text-align:center;
+    font-size:16px;
+    font-weight:bold;
+}
+
+/* <<葬花吟>> 解析*/
+#zanghua
+{   
+    padding-left:10px;
+    float:right;
+}
+#zhua
+{
+    float:left;
+    padding-right:10px;
+}

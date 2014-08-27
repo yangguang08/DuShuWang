@@ -1,0 +1,11 @@
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\ShuXiangShuiNing\bin\ShuXiangShuiNing.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\ShuXiangShuiNing\bin\ShuXiangShuiNing.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\ShuXiangShuiNing\bin\BLL.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\ShuXiangShuiNing\bin\Entity.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\ShuXiangShuiNing\bin\DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\ShuXiangShuiNing\bin\BLL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\ShuXiangShuiNing\bin\DAL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\ShuXiangShuiNing\bin\Entity.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\ShuXiangShuiNing\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\ShuXiangShuiNing\obj\Release\ShuXiangShuiNing.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\ShuXiangShuiNing\obj\Release\ShuXiangShuiNing.pdb

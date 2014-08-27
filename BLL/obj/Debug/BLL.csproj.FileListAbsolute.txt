@@ -1,0 +1,72 @@
+D:\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\bin\Debug\BLL.dll
+D:\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\bin\Debug\BLL.pdb
+D:\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\bin\Debug\DAL.dll
+D:\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\bin\Debug\Entity.dll
+D:\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\bin\Debug\Entity.pdb
+D:\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\bin\Debug\DAL.pdb
+D:\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\obj\Debug\BLL.dll
+D:\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\obj\Debug\BLL.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\bin\Debug\BLL.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\bin\Debug\BLL.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\bin\Debug\DAL.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\bin\Debug\Entity.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\bin\Debug\Entity.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\bin\Debug\DAL.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\obj\Debug\BLL.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\汉轩阁\BLL\obj\Debug\BLL.pdb
+D:\My Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\bin\Debug\BLL.dll
+D:\My Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\bin\Debug\BLL.pdb
+D:\My Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\bin\Debug\DAL.dll
+D:\My Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\bin\Debug\Entity.dll
+D:\My Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\bin\Debug\Entity.pdb
+D:\My Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\bin\Debug\DAL.pdb
+D:\My Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\obj\Debug\BLL.dll
+D:\My Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\obj\Debug\BLL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\bin\Debug\BLL.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\bin\Debug\BLL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\bin\Debug\DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\bin\Debug\Entity.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\bin\Debug\Entity.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\bin\Debug\DAL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\obj\Debug\BLL.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\BLL\obj\Debug\BLL.pdb
+C:\Documents and Settings\Administrator\桌面\ShuXiangShuiNing\BLL\bin\Debug\BLL.dll
+C:\Documents and Settings\Administrator\桌面\ShuXiangShuiNing\BLL\bin\Debug\BLL.pdb
+C:\Documents and Settings\Administrator\桌面\ShuXiangShuiNing\BLL\bin\Debug\DAL.dll
+C:\Documents and Settings\Administrator\桌面\ShuXiangShuiNing\BLL\bin\Debug\Entity.dll
+C:\Documents and Settings\Administrator\桌面\ShuXiangShuiNing\BLL\bin\Debug\Entity.pdb
+C:\Documents and Settings\Administrator\桌面\ShuXiangShuiNing\BLL\bin\Debug\DAL.pdb
+C:\Documents and Settings\Administrator\桌面\ShuXiangShuiNing\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\ShuXiangShuiNing\BLL\obj\Debug\BLL.dll
+C:\Documents and Settings\Administrator\桌面\ShuXiangShuiNing\BLL\obj\Debug\BLL.pdb
+C:\Users\hq\Desktop\ShuXiangShuiNing\BLL\bin\Debug\BLL.dll
+C:\Users\hq\Desktop\ShuXiangShuiNing\BLL\bin\Debug\BLL.pdb
+C:\Users\hq\Desktop\ShuXiangShuiNing\BLL\bin\Debug\DAL.dll
+C:\Users\hq\Desktop\ShuXiangShuiNing\BLL\bin\Debug\Entity.dll
+C:\Users\hq\Desktop\ShuXiangShuiNing\BLL\bin\Debug\Entity.pdb
+C:\Users\hq\Desktop\ShuXiangShuiNing\BLL\bin\Debug\DAL.pdb
+C:\Users\hq\Desktop\ShuXiangShuiNing\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\hq\Desktop\ShuXiangShuiNing\BLL\obj\Debug\BLL.dll
+C:\Users\hq\Desktop\ShuXiangShuiNing\BLL\obj\Debug\BLL.pdb
+D:\工作资料\信管协会\专业竞赛文件\文科计算机\大赛作品\ShuXiangShuiNing\BLL\bin\Debug\BLL.dll
+D:\工作资料\信管协会\专业竞赛文件\文科计算机\大赛作品\ShuXiangShuiNing\BLL\bin\Debug\BLL.pdb
+D:\工作资料\信管协会\专业竞赛文件\文科计算机\大赛作品\ShuXiangShuiNing\BLL\bin\Debug\DAL.dll
+D:\工作资料\信管协会\专业竞赛文件\文科计算机\大赛作品\ShuXiangShuiNing\BLL\bin\Debug\Entity.dll
+D:\工作资料\信管协会\专业竞赛文件\文科计算机\大赛作品\ShuXiangShuiNing\BLL\bin\Debug\Entity.pdb
+D:\工作资料\信管协会\专业竞赛文件\文科计算机\大赛作品\ShuXiangShuiNing\BLL\bin\Debug\DAL.pdb
+D:\工作资料\信管协会\专业竞赛文件\文科计算机\大赛作品\ShuXiangShuiNing\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\工作资料\信管协会\专业竞赛文件\文科计算机\大赛作品\ShuXiangShuiNing\BLL\obj\Debug\BLL.dll
+D:\工作资料\信管协会\专业竞赛文件\文科计算机\大赛作品\ShuXiangShuiNing\BLL\obj\Debug\BLL.pdb
+E:\管理系统备份\文科计算机设计大赛\ShuXiangShuiNing\BLL\bin\Debug\BLL.dll
+E:\管理系统备份\文科计算机设计大赛\ShuXiangShuiNing\BLL\bin\Debug\BLL.pdb
+E:\管理系统备份\文科计算机设计大赛\ShuXiangShuiNing\BLL\bin\Debug\DAL.dll
+E:\管理系统备份\文科计算机设计大赛\ShuXiangShuiNing\BLL\bin\Debug\Entity.dll
+E:\管理系统备份\文科计算机设计大赛\ShuXiangShuiNing\BLL\bin\Debug\Entity.pdb
+E:\管理系统备份\文科计算机设计大赛\ShuXiangShuiNing\BLL\bin\Debug\DAL.pdb
+E:\管理系统备份\文科计算机设计大赛\ShuXiangShuiNing\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\管理系统备份\文科计算机设计大赛\ShuXiangShuiNing\BLL\obj\Debug\BLL.dll
+E:\管理系统备份\文科计算机设计大赛\ShuXiangShuiNing\BLL\obj\Debug\BLL.pdb

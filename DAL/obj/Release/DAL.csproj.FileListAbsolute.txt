@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\bin\Release\DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\bin\Release\DAL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\bin\Release\Entity.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\bin\Release\Entity.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\obj\Release\DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ShuXiangShuiNing\DAL\obj\Release\DAL.pdb

@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Common.master.cs" Inherits="ShuXiangShuiNing.Common" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+       
+    </asp:ContentPlaceHolder>
+    <link href="../css/global.css" rel="stylesheet" type="text/css" />
+    <link href="../css/introduction.css" rel="stylesheet" type="text/css" />
+    <link href="../css/SubPages.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+window.onload=sss;
+function sss(){
+ frames[chat].scrollBy(0,10000);
+ setTimeout(sss,200);
+}
+</script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="thirdcontainer">
+    <div id="leftbar">
+        <div id="picture">
+            <br />
+            <br />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+            <br />
+            <br />
+            <hr/>
+        </div>
+        <div id="text">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+            </asp:ContentPlaceHolder>
+            <br />
+            <br />
+        </div>
+    </div>
+    <div id="rightbar">
+        <div id="sitemap">
+        <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="楷体_GB2312" 
+                Font-Size="1.1em" PathSeparator=" » ">
+                <PathSeparatorStyle Font-Bold="True" ForeColor="#990000" />
+                <CurrentNodeStyle ForeColor="#333333" />
+                <NodeStyle Font-Bold="True" ForeColor="#990000" />
+                <RootNodeStyle Font-Bold="True" ForeColor="#990000" />
+            </asp:SiteMapPath>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        </div><div id="content"class="contentbar">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div></div>
+    <div id="chat" class="chatcontainer">
+        <div id="login" class="login">
+            <asp:Login ID="Login1" runat="server" CssClass="login" 
+                onauthenticate="Login1_Authenticate">
+                <TextBoxStyle CssClass="loginTxtbox" />
+            </asp:Login>
+        </div>
+        <div id="welcome" class="welcome" runat="server">
+            <asp:Label ID="Label1" runat="server" Text=""></asp:Label><br />
+            <asp:LinkButton ID="LinkButton1" runat="server" onclick="LinkButton1_Click">退出</asp:LinkButton>
+        </div>
+        <div id="chatbox" class="framestyle">
+             <iframe src="../message/ChatXiaoshuo.aspx" name="chat" id="Iframe1" frameborder="0" onload="chat.scrollTo(0,10000)"  class="framestyle"></iframe>
+        </div>
+        <div id="submsg" >
+        发言内容：<br />
+        <asp:TextBox ID="tbSpeak" runat="server" Height="83px" TextMode="MultiLine" Width="100%"></asp:TextBox><br />
+        <asp:Button ID="Button1" runat="server"  Text="提交" onclick="Button1_Click" />
+    </div>
+    </div>
+    <div class="footer">
+        <p>版权所有：武汉理工大学管理学院信息管理与信息系统0804班 邹瑶 黄伟 黄雨晴</p>
+        <p>指导老师：燕翔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 地址：湖北省武汉市雄楚大街 &nbsp;&nbsp;&nbsp;&nbsp; 邮编：430070</p>
+        <p style="vertical-align:middle"><img alt="联系方式" src="../img/qq.gif"  />&nbsp;&nbsp;583153766&nbsp;&nbsp;&nbsp;1019488025&nbsp;&nbsp;&nbsp;766139240</p>
+    </div>
+    </div>
+    </form>
+</body>
+</html>

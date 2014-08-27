@@ -1,0 +1,38 @@
+﻿@import url("reset.css");
+#container
+{
+    width:100%;
+    padding:10px 10px;  
+}
+#container h3
+{
+    font-family:楷体_GB2312,华文新魏,隶书;
+    font-weight:bolder;
+    font-size:30px;
+    text-align:center;
+}
+#container span
+{
+    font-weight:bold;
+}
+#container p
+{
+    font-family:宋体;
+    font-size:16px;
+    line-height:32px;
+    clear:none;
+}
+#poem
+{
+    float:left;
+}
+#drawing, #tv
+{
+    float:right;
+}
+#drawing p, #tv p
+{
+    text-align:center;
+    font-size:16px;
+    font-weight:bold;
+}

@@ -1,0 +1,809 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F6758FBB-2D28-42E3-BDA8-F3EB44DBBBBF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShuXiangShuiNing</RootNamespace>
+    <AssemblyName>ShuXiangShuiNing</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.5.40412.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\程序\编程应用\AjaxControlToolkit.Binary.NET35\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bbs\linklogo.ico" />
+    <Content Include="bbs\login.aspx" />
+    <Content Include="bbs\main.aspx" />
+    <Content Include="bbs\register.aspx" />
+    <Content Include="bbs\zhutiall.aspx" />
+    <Content Include="bbs\zhutiehuitie001.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bankuai.ascx.cs">
+      <DependentUpon>bankuai.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bankuai.ascx.designer.cs">
+      <DependentUpon>bankuai.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="bankuaiheader.ascx.cs">
+      <DependentUpon>bankuaiheader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bankuaiheader.ascx.designer.cs">
+      <DependentUpon>bankuaiheader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="bbs\BBSsite.Master.cs">
+      <DependentUpon>BBSsite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bbs\BBSsite.Master.designer.cs">
+      <DependentUpon>BBSsite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="bbs\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bbs\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bbs\main.aspx.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bbs\main.aspx.designer.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bbs\register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bbs\register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bbs\adminLogin.aspx.cs">
+      <DependentUpon>adminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bbs\adminLogin.aspx.designer.cs">
+      <DependentUpon>adminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bbs\Manage.aspx.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bbs\Manage.aspx.designer.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bbs\zhutiall.aspx.cs">
+      <DependentUpon>zhutiall.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bbs\zhutiall.aspx.designer.cs">
+      <DependentUpon>zhutiall.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bbs\zhutiehuitie001.aspx.cs">
+      <DependentUpon>zhutiehuitie001.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bbs\zhutiehuitie001.aspx.designer.cs">
+      <DependentUpon>zhutiehuitie001.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="message\ChatSongci.aspx.cs">
+      <DependentUpon>ChatSongci.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="message\ChatSongci.aspx.designer.cs">
+      <DependentUpon>ChatSongci.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="message\ChatTangshi.aspx.cs">
+      <DependentUpon>ChatTangshi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="message\ChatTangshi.aspx.designer.cs">
+      <DependentUpon>ChatTangshi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="message\ChatYuanQu.aspx.cs">
+      <DependentUpon>ChatYuanQu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="message\ChatYuanQu.aspx.designer.cs">
+      <DependentUpon>ChatYuanQu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="htmleditor.ascx.cs">
+      <DependentUpon>htmleditor.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="htmleditor.ascx.designer.cs">
+      <DependentUpon>htmleditor.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="message\ChatXiaoshuo.aspx.cs">
+      <DependentUpon>ChatXiaoshuo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="message\ChatXiaoshuo.aspx.designer.cs">
+      <DependentUpon>ChatXiaoshuo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\AboutHero.aspx.cs">
+      <DependentUpon>AboutHero.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\AboutHero.aspx.designer.cs">
+      <DependentUpon>AboutHero.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\Analysis.aspx.cs">
+      <DependentUpon>Analysis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\Analysis.aspx.designer.cs">
+      <DependentUpon>Analysis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\baochai.aspx.cs">
+      <DependentUpon>baochai.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\baochai.aspx.designer.cs">
+      <DependentUpon>baochai.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\Common.Master.cs">
+      <DependentUpon>Common.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\Common.Master.designer.cs">
+      <DependentUpon>Common.Master</DependentUpon>
+    </Compile>
+    <Compile Include="novel\dandao.aspx.cs">
+      <DependentUpon>dandao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\dandao.aspx.designer.cs">
+      <DependentUpon>dandao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\Derivation.aspx.cs">
+      <DependentUpon>Derivation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\Derivation.aspx.designer.cs">
+      <DependentUpon>Derivation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\feiyun.aspx.cs">
+      <DependentUpon>feiyun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\feiyun.aspx.designer.cs">
+      <DependentUpon>feiyun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\juhuashi.aspx.cs">
+      <DependentUpon>juhuashi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\juhuashi.aspx.designer.cs">
+      <DependentUpon>juhuashi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\qiqin.aspx.cs">
+      <DependentUpon>qiqin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\qiqin.aspx.designer.cs">
+      <DependentUpon>qiqin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\sangu.aspx.cs">
+      <DependentUpon>sangu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\sangu.aspx.designer.cs">
+      <DependentUpon>sangu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\sanguo.aspx.cs">
+      <DependentUpon>sanguo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\sanguo.aspx.designer.cs">
+      <DependentUpon>sanguo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\SecondaryPage.aspx.cs">
+      <DependentUpon>SecondaryPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\SecondaryPage.aspx.designer.cs">
+      <DependentUpon>SecondaryPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\shezhan.aspx.cs">
+      <DependentUpon>shezhan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\shezhan.aspx.designer.cs">
+      <DependentUpon>shezhan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\shixiangyun.aspx.cs">
+      <DependentUpon>shixiangyun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\shixiangyun.aspx.designer.cs">
+      <DependentUpon>shixiangyun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\shuihu.aspx.cs">
+      <DependentUpon>shuihu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\shuihu.aspx.designer.cs">
+      <DependentUpon>shuihu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\ThePoem.aspx.cs">
+      <DependentUpon>ThePoem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\ThePoem.aspx.designer.cs">
+      <DependentUpon>ThePoem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\WhyWrite.aspx.cs">
+      <DependentUpon>WhyWrite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\WhyWrite.aspx.designer.cs">
+      <DependentUpon>WhyWrite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\yezhu.aspx.cs">
+      <DependentUpon>yezhu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\yezhu.aspx.designer.cs">
+      <DependentUpon>yezhu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="novel\zuida.aspx.cs">
+      <DependentUpon>zuida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="novel\zuida.aspx.designer.cs">
+      <DependentUpon>zuida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="songci\dielianhua.Master.cs">
+      <DependentUpon>dielianhua.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="songci\dielianhua.Master.designer.cs">
+      <DependentUpon>dielianhua.Master</DependentUpon>
+    </Compile>
+    <Compile Include="songci\dielianhua2.aspx.cs">
+      <DependentUpon>dielianhua2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="songci\dielianhua2.aspx.designer.cs">
+      <DependentUpon>dielianhua2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="songci\dielianhuaThree1.aspx.cs">
+      <DependentUpon>dielianhuaThree1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="songci\dielianhuaThree1.aspx.designer.cs">
+      <DependentUpon>dielianhuaThree1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="songci\dielianhuaThree2.aspx.cs">
+      <DependentUpon>dielianhuaThree2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="songci\dielianhuaThree2.aspx.designer.cs">
+      <DependentUpon>dielianhuaThree2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="songci\liannujiao2.aspx.cs">
+      <DependentUpon>liannujiao2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="songci\liannujiao2.aspx.designer.cs">
+      <DependentUpon>liannujiao2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="songci\niannujiaoThree1.aspx.cs">
+      <DependentUpon>niannujiaoThree1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="songci\niannujiaoThree1.aspx.designer.cs">
+      <DependentUpon>niannujiaoThree1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="songci\niannujiaoThree2.aspx.cs">
+      <DependentUpon>niannujiaoThree2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="songci\niannujiaoThree2.aspx.designer.cs">
+      <DependentUpon>niannujiaoThree2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="songci\shengshengman.aspx.cs">
+      <DependentUpon>shengshengman.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="songci\shengshengman.aspx.designer.cs">
+      <DependentUpon>shengshengman.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="songci\shengshengman.Master.cs">
+      <DependentUpon>shengshengman.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="songci\shengshengman.Master.designer.cs">
+      <DependentUpon>shengshengman.Master</DependentUpon>
+    </Compile>
+    <Compile Include="songci\shengshengmanThree1.aspx.cs">
+      <DependentUpon>shengshengmanThree1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="songci\shengshengmanThree1.aspx.designer.cs">
+      <DependentUpon>shengshengmanThree1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="songci\shengshengmanThree2.aspx.cs">
+      <DependentUpon>shengshengmanThree2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="songci\shengshengmanThree2.aspx.designer.cs">
+      <DependentUpon>shengshengmanThree2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="songci\songci.Master.cs">
+      <DependentUpon>songci.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="songci\songci.Master.designer.cs">
+      <DependentUpon>songci.Master</DependentUpon>
+    </Compile>
+    <Compile Include="tangshi\SecondTangshi.aspx.cs">
+      <DependentUpon>SecondTangshi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tangshi\SecondTangshi.aspx.designer.cs">
+      <DependentUpon>SecondTangshi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tangshi\Tangshi.Master.cs">
+      <DependentUpon>Tangshi.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tangshi\Tangshi.Master.designer.cs">
+      <DependentUpon>Tangshi.Master</DependentUpon>
+    </Compile>
+    <Compile Include="tangshi\Huanghelou.aspx.cs">
+      <DependentUpon>Huanghelou.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tangshi\Huanghelou.aspx.designer.cs">
+      <DependentUpon>Huanghelou.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tangshi\shudaonan.aspx.cs">
+      <DependentUpon>shudaonan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tangshi\shudaonan.aspx.designer.cs">
+      <DependentUpon>shudaonan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tangshi\xinlunan.aspx.cs">
+      <DependentUpon>xinlunan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tangshi\xinlunan.aspx.designer.cs">
+      <DependentUpon>xinlunan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tangshi\xunxishan.aspx.cs">
+      <DependentUpon>xunxishan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tangshi\xunxishan.aspx.designer.cs">
+      <DependentUpon>xunxishan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tangshi\youziyin.aspx.cs">
+      <DependentUpon>youziyin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tangshi\youziyin.aspx.designer.cs">
+      <DependentUpon>youziyin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThirdPage.Master.cs">
+      <DependentUpon>ThirdPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThirdPage.Master.designer.cs">
+      <DependentUpon>ThirdPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="tiezi.ascx.cs">
+      <DependentUpon>tiezi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tiezi.ascx.designer.cs">
+      <DependentUpon>tiezi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="TimeControl.ascx.cs">
+      <DependentUpon>TimeControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TimeControl.ascx.designer.cs">
+      <DependentUpon>TimeControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WhyWrite.aspx.cs">
+      <DependentUpon>WhyWrite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WhyWrite.aspx.designer.cs">
+      <DependentUpon>WhyWrite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yuanqu\doue.Master.cs">
+      <DependentUpon>doue.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yuanqu\doue.Master.designer.cs">
+      <DependentUpon>doue.Master</DependentUpon>
+    </Compile>
+    <Compile Include="yuanqu\doueyuanthree1.aspx.cs">
+      <DependentUpon>doueyuanthree1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yuanqu\doueyuanthree1.aspx.designer.cs">
+      <DependentUpon>doueyuanthree1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yuanqu\doueyuanthree2.aspx.cs">
+      <DependentUpon>doueyuanthree2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yuanqu\doueyuanthree2.aspx.designer.cs">
+      <DependentUpon>doueyuanthree2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yuanqu\doueyuanthree3.aspx.cs">
+      <DependentUpon>doueyuanthree3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yuanqu\doueyuanthree3.aspx.designer.cs">
+      <DependentUpon>doueyuanthree3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yuanqu\qiusithree1.aspx.cs">
+      <DependentUpon>qiusithree1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yuanqu\qiusithree1.aspx.designer.cs">
+      <DependentUpon>qiusithree1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yuanqu\qiusithree2.aspx.cs">
+      <DependentUpon>qiusithree2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yuanqu\qiusithree2.aspx.designer.cs">
+      <DependentUpon>qiusithree2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yuanqu\qiusithree3.aspx.cs">
+      <DependentUpon>qiusithree3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yuanqu\qiusithree3.aspx.designer.cs">
+      <DependentUpon>qiusithree3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yuanqu\xixiangjithree1.aspx.cs">
+      <DependentUpon>xixiangjithree1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yuanqu\xixiangjithree1.aspx.designer.cs">
+      <DependentUpon>xixiangjithree1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yuanqu\xixiangjithree2.aspx.cs">
+      <DependentUpon>xixiangjithree2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yuanqu\xixiangjithree2.aspx.designer.cs">
+      <DependentUpon>xixiangjithree2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yuanqu\yuanqu.Master.cs">
+      <DependentUpon>yuanqu.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yuanqu\yuanqu.Master.designer.cs">
+      <DependentUpon>yuanqu.Master</DependentUpon>
+    </Compile>
+    <Compile Include="yuanqu\yuanquqiusi2.aspx.cs">
+      <DependentUpon>yuanquqiusi2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yuanqu\yuanquqiusi2.aspx.designer.cs">
+      <DependentUpon>yuanquqiusi2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yuanqu\yuanquxixiang.Master.cs">
+      <DependentUpon>yuanquxixiang.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yuanqu\yuanquxixiang.Master.designer.cs">
+      <DependentUpon>yuanquxixiang.Master</DependentUpon>
+    </Compile>
+    <Compile Include="yuanqu\yuanquxixiangji2.aspx.cs">
+      <DependentUpon>yuanquxixiangji2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yuanqu\yuanquxixiangji2.aspx.designer.cs">
+      <DependentUpon>yuanquxixiangji2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yuanqu\yuqnudoueyuan2.aspx.cs">
+      <DependentUpon>yuqnudoueyuan2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yuanqu\yuqnudoueyuan2.aspx.designer.cs">
+      <DependentUpon>yuqnudoueyuan2.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bankuai.ascx" />
+    <Content Include="bankuaiheader.ascx" />
+    <Content Include="bbs\BBSsite.Master" />
+    <Content Include="css\bbs.css" />
+    <Content Include="css\global.css" />
+    <Content Include="htmleditor.ascx" />
+    <Content Include="img\bbs\barrow.gif" />
+    <Content Include="img\bbs\bbstitle.png" />
+    <Content Include="img\bbs\edit.gif" />
+    <Content Include="img\bbs\female.jpg" />
+    <Content Include="img\bbs\folder.gif" />
+    <Content Include="img\bbs\Forum_readme.gif" />
+    <Content Include="img\bbs\male.jpg" />
+    <Content Include="img\bbs\zhuangtai1.png" />
+    <Content Include="img\bbs\zhuangtai2.gif" />
+    <Content Include="img\bg.png" />
+    <Content Include="img\collapse_blue.jpg" />
+    <Content Include="img\expand_blue.jpg" />
+    <Content Include="img\home.png" />
+    <Content Include="img\leftsiderbar.png" />
+    <Content Include="img\linkbg.png" />
+    <Content Include="img\nav-bar1.png" />
+    <Content Include="img\nav.png" />
+    <Content Include="img\photo\linklogo.png" />
+    <Content Include="img\photo\slogan.png" />
+    <Content Include="img\qq.gif" />
+    <Content Include="img\rightsiderbar.png" />
+    <Content Include="tiezi.ascx" />
+    <Content Include="TimeControl.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bbs\adminLogin.aspx" />
+    <Content Include="bbs\Manage.aspx" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\AjaxControlToolkit.pdb" />
+    <Content Include="bin\ar\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\BLL.dll" />
+    <Content Include="bin\BLL.pdb" />
+    <Content Include="bin\cs\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\DAL.dll" />
+    <Content Include="bin\DAL.pdb" />
+    <Content Include="bin\de\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\Entity.dll" />
+    <Content Include="bin\Entity.pdb" />
+    <Content Include="bin\es\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\fr\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\he\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\hi\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\it\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\ja\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\ko\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\nl\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\pt\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\ru\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\ShuXiangShuiNing.dll" />
+    <Content Include="bin\ShuXiangShuiNing.pdb" />
+    <Content Include="bin\tr-TR\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\zh-CHS\AjaxControlToolkit.resources.dll" />
+    <Content Include="bin\zh-CHT\AjaxControlToolkit.resources.dll" />
+    <Content Include="css\index.css" />
+    <Content Include="css\introduction.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="Error.aspx" />
+    <Content Include="img\1.png" />
+    <Content Include="img\2.png" />
+    <Content Include="img\3.png" />
+    <Content Include="img\adminlogin.png" />
+    <Content Include="img\bbsheader.swf" />
+    <Content Include="img\error.png" />
+    <Content Include="img\home.gif" />
+    <Content Include="img\more.gif" />
+    <Content Include="img\nav-hover.png" />
+    <Content Include="linklogo.ico" />
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{BB2C9654-D305-488B-BAC6-77D9FE5F8EF5}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{EB3D1E5F-FD2D-471F-B285-0A7F142A8D92}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="message\ChatYuanQu.aspx" />
+    <Content Include="css\AboutHero.css" />
+    <Content Include="css\SubPages.css" />
+    <Content Include="css\ThePoem.css" />
+    <Content Include="Global.asax" />
+    <Content Include="img\daiyu.jpeg" />
+    <Content Include="img\drawing.jpg" />
+    <Content Include="img\hero.jpg" />
+    <Content Include="img\tv.jpg" />
+    <Content Include="img\zanghua.jpg" />
+    <Content Include="img\zhua.jpg" />
+    <Content Include="ThirdPage.Master" />
+    <Content Include="WhyWrite.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\tangshi.png" />
+    <Content Include="songci\dielianhua2.aspx" />
+    <Content Include="songci\dielianhuaThree1.aspx" />
+    <Content Include="songci\dielianhuaThree2.aspx" />
+    <Content Include="songci\liannujiao2.aspx" />
+    <Content Include="songci\niannujiaoThree1.aspx" />
+    <Content Include="songci\niannujiaoThree2.aspx" />
+    <Content Include="songci\shengshengman.aspx" />
+    <Content Include="songci\shengshengmanThree1.aspx" />
+    <Content Include="songci\shengshengmanThree2.aspx" />
+    <Content Include="tangshi\SecondTangshi.aspx" />
+    <Content Include="tangshi\Tangshi.Master" />
+    <Content Include="tangshi\Huanghelou.aspx" />
+    <Content Include="tangshi\shudaonan.aspx" />
+    <Content Include="tangshi\xinlunan.aspx" />
+    <Content Include="tangshi\xunxishan.aspx" />
+    <Content Include="tangshi\youziyin.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="songci\songci.Master" />
+    <Content Include="yuanqu\doueyuanthree1.aspx" />
+    <Content Include="yuanqu\doueyuanthree2.aspx" />
+    <Content Include="yuanqu\doueyuanthree3.aspx" />
+    <Content Include="yuanqu\qiusithree1.aspx" />
+    <Content Include="yuanqu\qiusithree2.aspx" />
+    <Content Include="yuanqu\qiusithree3.aspx" />
+    <Content Include="yuanqu\xixiangjithree1.aspx" />
+    <Content Include="yuanqu\xixiangjithree2.aspx" />
+    <Content Include="yuanqu\yuanquqiusi2.aspx" />
+    <Content Include="yuanqu\yuanquxixiangji2.aspx" />
+    <Content Include="yuanqu\yuqnudoueyuan2.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="yuanqu\yuanqu.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="yuanqu\yuanquxixiang.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="yuanqu\doue.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="songci\dielianhua.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="message\ChatSongci.aspx" />
+    <Content Include="message\ChatTangshi.aspx" />
+    <Content Include="message\ChatXiaoshuo.aspx" />
+    <Content Include="novel\AboutHero.aspx" />
+    <Content Include="novel\Analysis.aspx" />
+    <Content Include="novel\baochai.aspx" />
+    <Content Include="novel\dandao.aspx" />
+    <Content Include="novel\Derivation.aspx" />
+    <Content Include="novel\feiyun.aspx" />
+    <Content Include="novel\juhuashi.aspx" />
+    <Content Include="novel\qiqin.aspx" />
+    <Content Include="novel\sangu.aspx" />
+    <Content Include="novel\sanguo.aspx" />
+    <Content Include="novel\SecondaryPage.aspx" />
+    <Content Include="novel\shezhan.aspx" />
+    <Content Include="novel\shixiangyun.aspx" />
+    <Content Include="novel\shuihu.aspx" />
+    <Content Include="novel\ThePoem.aspx" />
+    <Content Include="novel\WhyWrite.aspx" />
+    <Content Include="novel\yezhu.aspx" />
+    <Content Include="novel\zuida.aspx" />
+    <Content Include="songci\shengshengman.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\1.jpg" />
+    <Content Include="img\baochai.jpg" />
+    <Content Include="img\dandao.jpg" />
+    <Content Include="img\dielianhua.jpg" />
+    <Content Include="img\feiyun.jpg" />
+    <Content Include="img\juhua.jpg" />
+    <Content Include="img\juhuashi.gif" />
+    <Content Include="img\Original.jpg" />
+    <Content Include="img\qiqin.jpg" />
+    <Content Include="img\sangu.jpg" />
+    <Content Include="img\shezhan.jpg" />
+    <Content Include="img\shixiangyun.jpg" />
+    <Content Include="img\songci.jpg" />
+    <Content Include="img\songci2.jpg" />
+    <Content Include="img\why.jpg" />
+    <Content Include="img\whywrite.jpg" />
+    <Content Include="img\yezhu.jpg" />
+    <Content Include="img\yuanquGrey.jpg" />
+    <Content Include="img\yuanquRed.jpg" />
+    <Content Include="img\zuida.jpg" />
+    <Content Include="novel\Common.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1367</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

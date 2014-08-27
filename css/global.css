@@ -1,0 +1,93 @@
+﻿body
+{
+    background-color:#CEE2B0;
+    background-repeat:no-repeat;
+    font:宋体;
+    font-size:14px;
+    margin:0px auto;
+    position:relative;
+}
+table
+{
+	border:none;
+	border-collapse:collapse;
+}
+/*------------------------
+  主体框架1000*900像素
+------------------------*/
+#framework
+{
+    width:900px;
+    margin:0px auto;
+    border:solid 0px blue;
+    padding:0px;
+    position:relative;
+    background-color:#C3DC9A;
+    top: 0px;
+    left: 0px;
+    position:relative;
+}
+ul
+{
+    list-style-type:none;
+    margin:15px 0px 0px 15px;
+    padding:0px;
+}
+li
+{
+    margin:2px 2px;
+    padding:0px;
+    height:20px;
+    color:#333399;
+}
+a:hover li
+{
+    list-style-image:url(../img/hanfu1.png);    
+}
+p
+{
+    margin:0px;
+    padding:0px;
+}
+h3
+{
+    margin:0px 2px;
+    text-align:left;
+}
+.footer
+{
+    width:100%;
+    border-top:solid 5px #F0C262;
+    background:#E8E1AF;
+    padding:5px 0 0 0;
+    float:left;
+    clear:both;
+    text-align:center;
+ 
+}
+.footer p
+{
+    text-align:center;
+    font-size:12px;   
+}
+
+/*------------------------
+      链接颜色 
+------------------------*/
+
+a:link {color: #993333; text-decoration:none;}
+a:visited {color:#333333;text-decoration:none;}
+a:hover {color:#000099; text-decoration:underline;}
+a:active {color: #bc2931; text-decoration:none;}
+
+/*------------------------
+   时钟自定义控件样式
+------------------------*/
+#today
+{
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: #0000FF;
+    background-color:#C8DA62;
+    width:150px;
+}
